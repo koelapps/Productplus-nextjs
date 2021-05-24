@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <link rel="icon" type="image/x-icon" href="/public/favicon.ico" />
+          <link rel="icon" type="image/x-icon" src="../public/favicon.ico" />
           {/* PWA primary color */}
           <meta name="theme-color" content={Theme.palette.primary.main} />
           <meta property="og:type" content="website" />
