@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="80" viewBox="0 0 448.643 140.007">
+<path id="Path_61" data-name="Path 61" d="M0-4.007H448.643L370.294,136H0Z" transform="translate(0 4.007)"/>
+  <g id="Group_189" data-name="Group 189" transform="translate(-548.835 -468.563)">
+    <g id="Group_187" data-name="Group 187" transform="translate(878.836 468.563)">
+      <path id="Path_55" data-name="Path 55" d="M1249.578,473.241l-56.127,100.1a58.526,58.526,0,0,1,56.127-100.1Z" transform="translate(-1173.008 -470.4)" fill="#0b72b9"/>
+      <path id="Path_56" data-name="Path 56" d="M1307.313,531.375a58.507,58.507,0,0,1-96.572,44.367l56.127-100.1A58.531,58.531,0,0,1,1307.313,531.375Z" transform="translate(-1190.298 -472.802)"/>
+      <g id="Group_186" data-name="Group 186" transform="translate(30.153 11.413)">
+        <g id="Group_185" data-name="Group 185">
+          <g id="Words">
+            <path id="Path_57" data-name="Path 57" d="M1312.541,639.541" transform="translate(-1262.097 -563.316)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_58" data-name="Path 58" d="M1275.259,603.72" transform="translate(-1245.014 -546.902)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_59" data-name="Path 59" d="M1264.47,498.848l-.09,80.378-7.67-.009.059-52.247-29.4,52.214-7.938-.009Z" transform="translate(-1220.434 -498.848)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Product_Plus_" data-name="Product Plus " transform="translate(548.835 538.578)" fill="#fff" font-size="57" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Product Plus </tspan></text>
+    <text id="From_koel_Apps" data-name="From koel Apps" transform="translate(713.836 579.578)" fill="#7fc4fd" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">From koel Apps</tspan></text>
+  </g>
+</svg>
