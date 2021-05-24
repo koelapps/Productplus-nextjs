@@ -19,12 +19,13 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-lottie": "^1.2.3"
+    "react-lottie": "^1.2.3",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "serve -s build -p $PORT",
     "postbuild": "node scripts/sitemap.js",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
     "heroku-postbuild": "npm run build"
