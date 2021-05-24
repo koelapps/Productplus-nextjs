@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
   icon: {
     width: '12em',
     height: '10em',
+    [theme.breakpoints.down('sm')]: {
+      width: '25em',
+    },
   },
   estimateButton: {
     ...theme.typography.estimate,
@@ -201,7 +204,7 @@ const softwareQuestions = [
         id: 1,
         title: 'Users/Authentication',
         subtitle: null,
-        icon: '/assets/user.svg',
+        icon: '/assets/users.svg',
         iconAlt: 'outline of a person with a plus sign',
         selected: false,
         cost: 250,
@@ -860,7 +863,10 @@ export default function Estimate() {
         direction="column"
         alignItems="center"
         lg
-        style={{ marginRight: matchesMD ? 0 : '2em', marginBottom: '25em' }}
+        style={{
+          marginRight: matchesMD ? 0 : '2em',
+          marginBottom: '25em',
+        }}
       >
         {questions
           .filter((question) => question.active)
@@ -881,12 +887,7 @@ export default function Estimate() {
                 >
                   {question.title}
                 </Typography>
-                <Typography
-                  variant="body1"
-                  align="center"
-                  style={{ marginBottom: '2.5em' }}
-                  gutterBottom
-                >
+                <Typography variant="body1" align="center" gutterBottom>
                   {question.subtitle}
                 </Typography>
               </Grid>
@@ -910,7 +911,10 @@ export default function Estimate() {
                     alignItems="center"
                     md
                   >
-                    <Grid item style={{ maxWidth: '14em' }}>
+                    <Grid
+                      item
+                      style={{ maxWidth: matchesSM ? '25em' : '14em' }}
+                    >
                       <Typography
                         align="center"
                         variant="h6"
